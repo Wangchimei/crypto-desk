@@ -19,6 +19,12 @@
   min-height: 100vh;
 }
 
+.logo-container {
+  background-color: #001529;
+  padding: 15px;
+  width: 100%;
+}
+
 .heading,
 .home-title {
   color: var(--blue) !important;
