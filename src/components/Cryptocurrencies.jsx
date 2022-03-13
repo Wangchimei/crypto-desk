@@ -1,4 +1,4 @@
-const Cryptocurrencies = () => {
+const Cryptocurrencies = ({ simplified }) => {
   return <div>Cryptocurrencies</div>;
 };
 

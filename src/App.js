@@ -1,9 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Cryptocurrencies from "./components/Cryptocurrencies";
-import CryptoDetails from "./components/CryptoDetails";
-import News from "./components/News";
+import { Home, Cryptocurrencies, CryptoDetails, News } from "./components";
 
 function App() {
   return (
