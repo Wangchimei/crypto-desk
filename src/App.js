@@ -7,6 +7,7 @@ import {
   CryptoDetails,
   News,
 } from "./components";
+import "./App.css";
 
 const { Content, Footer, Sider } = Layout;
 

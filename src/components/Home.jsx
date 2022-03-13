@@ -8,8 +8,8 @@ const { Title } = Typography;
 
 const Home = () => {
   const { data, isFetching } = useGetCryptosQuery();
-  debugger;
   const globalStats = data?.data?.stats;
+
   if (isFetching) return <Loading />;
 
   return (
